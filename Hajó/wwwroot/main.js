@@ -13,7 +13,7 @@ function kérdésMegjelenítés(kérdés) {
     document.getElementById("válasz1").innerText = kérdés.answer1
     document.getElementById("válasz2").innerText = kérdés.answer2
     document.getElementById("válasz3").innerText = kérdés.answer3
-    jóVálasz = kérdés.correctAnswer;
+    jóVálasz = kérdés.correctAnswer;+
     if (kérdés.image) {
         document.getElementById("kép").src = "https://szoft1.comeback.hu/hajo/" + kérdés.image;
         document.getElementById("kép").classList.remove("rejtett")
